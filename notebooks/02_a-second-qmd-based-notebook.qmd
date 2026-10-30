@@ -9,12 +9,20 @@ jupyter:
       format_version: '1.0'
       jupytext_version: 1.19.6
   kernelspec:
-    display_name: .venv
+    display_name: Python 3 (ipykernel)
     language: python
     name: python3
 ---
 
 ```{python}
 print('hoi')
+```
+
+```{python}
+from friday_blues import say_hello
+```
+
+```{python}
+say_hello('frank')
 ```
 
